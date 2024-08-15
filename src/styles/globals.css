@@ -105,3 +105,31 @@ a {
     color-scheme: dark;
   }
 }
+
+.card {
+  width: 300px;
+  height: fit-content;
+  background-color: white;
+  color: black;
+  gap: 10px;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
+  gap: 10px;
+  padding: 10px;
+}
+
+.jagsaalt {
+  width: 230px;
+  height: 30px;
+
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
